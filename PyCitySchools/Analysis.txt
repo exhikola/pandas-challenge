@@ -1,1 +1,44 @@
+PyCity Schools Analysis
+
+All the project data source is based in two files. Which are merged from the 'School Name' which is the information incommon for botth files.
+-First file contains information about the school and the second file contains information about students. 
+This is the information used for the analyses.
+1.student_name
+2.gender	
+3.grade	school_name	
+4.reading_score	math_score
+5.type	
+6.size	
+7.budget
+
+-District Summary
+On this section I have done all the summary for total numbers of schools, students, sum of the total budget, mean of the math &reading score, also the passing rate of Math & reading and the overall passing.
+I did a summary by using dataframe.
+
+-School Summary
+On this section I have done the calculation as it is required for the students.
+
+First step that helps to retrieve the data I need for the report,is to group the school_data_complete file by "school_name"
+
+After all the calculation for :School Type, Total Students, Total School Budget, Per Student Budget, Average Math Score, Average Reading Score, % Passing Math	% Passing Reading, % Overall Passing Rate.
+All this information is used to create a DataFrame named per_school_summary, with will help for the further analyses.
+
+
+Highest-Performing Schools (by % Overall Passing) and Bottom Performing Schools (By % Overall Passing)
+Its noticed that the school which have lower budget has higher rate of overall passing, and the school budget is higher but overall passing rate is lower.
+
+
+Math Scores by Grade and Reading Score by Grade
+
+By this calculation seem that all the grades from 9th to 12th and schools have similar changes.
+
+Scores by School Size
+
+Schools that are considered large have lower passing rate than medium and small schools.
+
+Scores by School Type
+The result its very clear that Charter Schools have higher passing rate in math, reading.
+
+
+
 
